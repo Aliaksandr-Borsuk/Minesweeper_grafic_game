@@ -1,0 +1,3 @@
+g++ main.cpp -std=c++14 -IC:\dev\my_sfml\SFML-2.5.1\include -LC:\dev\my_sfml\SFML-2.5.1\lib -lsfml-graphics -lsfml-window -lsfml-system -o minesweeper.exe
+
+g++ main.cpp game_logic.cpp -std=c++14 -IC:\dev\my_sfml\SFML-2.5.1\include -LC:\dev\my_sfml\SFML-2.5.1\lib -lsfml-graphics -lsfml-window -lsfml-system -o minesweeper.exe
